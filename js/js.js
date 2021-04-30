@@ -1,10 +1,29 @@
 
-let ingresarNumero = parseInt(prompt("ingrese numero"))
-
+//CLASE 3
+/* ingresarNumero = parseInt(prompt("ingrese numero"))
+ // contar ccon FOR
 for (let i = 1 ; i<= 10; i++) {
     let resultado = ingresarNumero * i ;
-    alert( ingresarNumero + "X" + i + "=" + resultado)
+    console.log( ingresarNumero + "X" + i + "=" + resultado)
 }
+//SWITCH es como el IF
+let entrada = prompt("Ingresa tu nombre")
+while (entrada != "ESC"){
+    switch (entrada){
+        case "ANA":
+            console.log("Hola ana")
+        break;
+        case "JULI":
+            console.log("Hola juli")
+        break;
+        default:
+            console.log("who are youuu")
+        break;
+    }
+    entrada = prompt("Ingresa nuevamente tu nombre")
+
+}*/
+
 
 // CLASE 2
 /*let Precio = prompt("ingrese precio")
