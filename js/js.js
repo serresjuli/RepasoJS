@@ -4,14 +4,22 @@ function Persona(nombre, edad, calle) {
     this.nombre = nombre;
     this.edad = edad;
     this.calle = calle;
+    this.hablar = function () {console.log ("hola soy " + this.nombre)}
     
 }
 const personaUNO = new Persona ("Julieta", 27, "alvarez 4511")
 const personaDOS = new Persona ("Giselle", 31, "alvarez 4511 b")
 
 console.log (personaUNO)
+console.log (personaDOS.nombre)
+console.log (personaDOS.edad)
+console.log (personaDOS.calle)
+personaUNO.hablar(); // para activar la funcion this.hablar dentro del constructor pero vinculado a un objeto en particular, personaUNO
 
-//crear objetos sueltos
+for (const propiedad in personaUNO) { // para recorrer todas las propiedades del objeto
+    console.log (personaUNO[propiedad]);
+}
+
 /*
 let nombre = "homero"
 let edad = 39
