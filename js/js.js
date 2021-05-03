@@ -1,5 +1,46 @@
 //CLASE 5
+/*
+//ejemplo con IVA
+class Producto {
+    constructor(nombre, precio){
+        this.nombre = nombre.toUpperCase(); // para que pase a MAYUSCULA
+        this.precio = parseFloat(precio); // para calcular el IVA
+        this.vendido = false; 
+    }
+    sumarIva(){
+        this.precio = this.precio * 1.21;
+    }
+    vender(){
+        this.vendido = true; // para activar la venta
+    }
+}
+
+const producto1 = new Producto("arroz", "125")
+const producto2 = new Producto("fideos", "250")
+producto1.sumarIva();
+producto2.sumarIva();
+producto1.vender();
+console.log (producto1)
+
+*/
+/*
+//creo el constructor desde una CLASS
+class Persona{
+    constructor(nombre, edad, calle){
+        this.nombre = nombre;
+        this. edad = edad;
+        this. calle = calle;
+    }
+    hablar(){
+        console.log ( "hola soy " + this.nombre);
+    }
+}
+const personaUNO = new Persona ("Julieta", 27, "alvarez 4511")
+personaUNO.hablar() // activo la funcion
+*/
+
 //constructores
+/*
 function Persona(nombre, edad, calle) {
     this.nombre = nombre;
     this.edad = edad;
@@ -19,7 +60,7 @@ personaUNO.hablar(); // para activar la funcion this.hablar dentro del construct
 for (const propiedad in personaUNO) { // para recorrer todas las propiedades del objeto
     console.log (personaUNO[propiedad]);
 }
-
+*/
 /*
 let nombre = "homero"
 let edad = 39
