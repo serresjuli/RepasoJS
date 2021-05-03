@@ -1,3 +1,49 @@
+//CLASE 5
+//constructores
+function Persona(nombre, edad, calle) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.calle = calle;
+    
+}
+const personaUNO = new Persona ("Julieta", 27, "alvarez 4511")
+const personaDOS = new Persona ("Giselle", 31, "alvarez 4511 b")
+
+console.log (personaUNO)
+
+//crear objetos sueltos
+/*
+let nombre = "homero"
+let edad = 39
+let calle = "av siempreviva"
+const persona1 = { nombre: "homero",
+                edad: 39,
+                calle: "av siempreviva",
+        }
+//para cambiar el nombre        
+persona1["nombre"] = "marge"; 
+
+console.log(persona1.nombre)
+console.log(persona1.edad)
+*/
+
+//CLASE 4
+/*
+//declaro funcion
+function solicitarNombre() {
+    let nombreIngresado = prompt ("Ingresar nombre");
+    alert ("el nombre ingresado es " + nombreIngresado);
+    
+}
+// activo la funcion
+solicitarNombre()
+// con parametros
+function conParametros (parametro1, parametro2) {  
+        console.log ( parametro1 + " " + parametro2)
+}
+conParametros ()
+*/
+
 
 //CLASE 3
 /* ingresarNumero = parseInt(prompt("ingrese numero"))
