@@ -1,4 +1,57 @@
-//CLASE 6 
+//AFTER CLASE 6
+
+
+/*
+//ordeno clientes por edad
+function Cliente(id, nombre, edad) {
+    this.id = id;
+    this.nombre = nombre;
+    this.edad = edad;
+}
+let cliente1 = new Cliente(3, "gonzalo", 38);
+let cliente2 = new Cliente(5, "maria", 21);
+let cliente3 = new Cliente(8, "carmen", 75);
+
+let clientes = [];
+clientes.push(cliente1, cliente2, cliente3)
+
+function comparar(a, b) {
+    return a.edad - b.edad;
+}
+let clientesOrdenados = clientes.sort(comparar)
+console.log(clientesOrdenados)
+*/
+//ordeno numeros
+/*
+let numeros = [2, 8, 25, 1, 15, 34]
+function compararNumeros(a,b) {
+    return a-b // para ordenarlos bien de menor a mayor, si no quedan 1 ,15, 2, 25, 34, 8
+}
+let numerosOrdenados = numeros.sort(compararNumeros);
+console.log(numerosOrdenados)
+*/
+//CLASE 6
+/*
+//METODO FILTER
+const numeros = [1, 2, 3, 4, 5]
+const filtro1 = numeros.filter(elemento => elemento > 3)
+console.log(filtro1)
+
+const nombres = ["JULIETA", "EMMA", "PEPE", "PAU"]
+const filtro2 = nombres.filter(elemento => elemento.includes("E"));
+console.log(filtro2)
+*/
+/*
+//metodo FIND
+const numeros = [1, 2, 3, 4, 5]
+
+const encontrado = numeros.find(elemento => elemento > 3);//para buscar elemento mayor a 3
+console.log(encontrado)
+
+const nombres = ["JULI", "EMMA", "PEPE", "PAU"]
+const buscado = nombres.find(elemento => elemento === "JULI")// buscar estrictamente el nombre JULI
+console.log(buscado)
+*/
 /*
 //mismo ejemplo con IVA
 class Producto {
@@ -31,6 +84,7 @@ const objeto3 = { id: 3, precio: 990, nombre:" azucar"};
 let carrito = [objeto1, objeto2];
 //agrego el 3er objeto mediante push
 carrito.push(objeto3);
+carrito.pop();// elimina el ultimo objeto! 
 //visualizo el carrito con FOR
 for (let index = 0; index < carrito.length; index++) {
     const element = carrito[index];
@@ -43,8 +97,8 @@ for (const producto of carrito) {
     console.log(producto.precio)
     console.log(producto.nombre)
 }
-*/
 
+*/
 //CLASE 5
 /*
 //ejemplo con IVA
