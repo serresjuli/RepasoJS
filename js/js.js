@@ -1,3 +1,37 @@
+//CLASE 6
+
+
+//creo objetos
+const objeto1 = { id: 1, precio: 5400, nombre:" arroz"};
+const objeto2 = { id: 2, precio: 1500, nombre:" pan"};
+const objeto3 = { id: 3, precio: 990, nombre:" azucar"};
+//creo el array con solo 2 objetos 
+let carrito = [objeto1, objeto2];
+//agrego el 3er objeto mediante push
+carrito.push(objeto3);
+//visualizo el carrito con FOR
+for (let index = 0; index < carrito.length; index++) {
+    const element = carrito[index];
+    console.log(element)
+    
+}
+//visualizo el carrito con FOR OF
+for (const producto of carrito) {
+    console.log(producto.id)
+    console.log(producto.precio)
+    console.log(producto.nombre)
+}
+
+
+
+
+
+
+
+
+
+
+
 //CLASE 5
 /*
 //ejemplo con IVA
