@@ -1,6 +1,6 @@
+
+
 //AFTER CLASE 6
-
-
 /*
 //ordeno clientes por edad
 function Cliente(id, nombre, edad) {
