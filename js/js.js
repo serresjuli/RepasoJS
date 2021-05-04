@@ -1,6 +1,28 @@
-//CLASE 6
+//CLASE 6 
+/*
+//mismo ejemplo con IVA
+class Producto {
+    constructor(nombre, precio){
+        this.nombre = nombre.toUpperCase(); // para que pase a MAYUSCULA
+        this.precio = parseFloat(precio); // para calcular el IVA
+        this.vendido = false; 
+    }
+    sumarIva(){
+        this.precio = this.precio * 1.21;
+    }
+}
+const productos = [];
 
+productos.push (new Producto("arroz", "125"))
+productos.push (new Producto("pan", "230"))
+productos.push (new Producto("axucar", "99"))
 
+for (const producto of productos){
+    producto.sumarIva();
+}
+console.log(productos)
+*/
+/*
 //creo objetos
 const objeto1 = { id: 1, precio: 5400, nombre:" arroz"};
 const objeto2 = { id: 2, precio: 1500, nombre:" pan"};
@@ -21,16 +43,7 @@ for (const producto of carrito) {
     console.log(producto.precio)
     console.log(producto.nombre)
 }
-
-
-
-
-
-
-
-
-
-
+*/
 
 //CLASE 5
 /*
