@@ -1,5 +1,18 @@
+//CLASE 7
 
 
+/*
+//transformo objeto a JSON
+const productoX = { id: 2, producto:"arroz"};
+const enJSON = JSON.stringify(productoX);
+
+console.log(productoX)//muestra como objeto
+console.log(enJSON);//muestra como string
+console.log(typeof productoX);//muestra que tipo de elemento es
+console.log(typeof enJSON);//muestra que tipo de elemento es
+
+localStorage.setItem("productoX", enJSON);
+*/
 //AFTER CLASE 6
 /*
 //ordeno clientes por edad
